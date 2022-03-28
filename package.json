@@ -1,0 +1,46 @@
+{
+  "name": "shopisthan-backend",
+  "version": "1.0.0",
+  "description": "Shopisthan Backend Coding",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "engines": {
+    "node": "14.16.x",
+    "npm": "7.17.x"
+  },
+  "keywords": [
+    "E-commerce",
+    "Social",
+    "Commerce",
+    "MERN",
+    "MERN",
+    "Stack",
+    "Shopisthan"
+  ],
+  "author": "Shopisthan",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.925.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.3",
+    "express-sslify": "^1.2.0",
+    "express-validator": "^6.10.0",
+    "formidable": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "razorpay": "^2.0.6",
+    "shortid": "^2.2.16",
+    "uniqid": "^5.3.0",
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
